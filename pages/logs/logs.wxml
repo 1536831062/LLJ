@@ -1,0 +1,129 @@
+<!--logs.wxml-->
+<view class="diva">
+  <image src='/img/img-index/u=985756083,1556245365&fm=27&gp=0.jpg' class='img-top'></image>
+		<view class="diva_v">
+			<view class="diva_a"> 
+        
+				<image src='/img/img-index/614723299593637059.jpg' style='width: 170rpx; height: 180rpx; border-radius: 50%; margin-top:0rpx;'></image>
+				<span>
+					<p class="p1">南风知我意</p>
+					<p class="p2">小白生活家</p>
+				</span>
+			</view>
+		</view>
+	</view>
+	<view class="divb">
+		<view class="divb_v">
+			<view class="divb_a">
+				<a href="#">
+					<p>我的订单</p>
+				</a>
+			</view>
+			<view class="divb_b">
+				<a href="#">
+					<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye (13).png'></image>
+					<p>待付款</p>
+				</a>
+				<a href="#">
+					<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye (9).png'></image>
+					<p>待发货</p>
+				</a>
+				<a href="#">
+					<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye (4).png'></image>
+					<p>已发货</p>
+				</a>
+				<a href="#">
+					<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye (10).png'></image>
+					<p>待评价</p>
+				</a>
+				<a href="#">
+					<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye (2).png'></image>
+					<p>待售后</p>
+				</a>
+			</view>
+		</view>
+	</view>
+	<view class="divc">
+		<view class="divc_c">
+			<view class="divc_v">
+				<view class="divc_a">
+					<a href="#">
+						<p>我的服务</p>
+					</a>
+				</view>
+				<view class="divc_b">
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shezhiz (3).png'></image>
+						<p>拼团订单</p>
+					</a>
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye.png'></image>
+						<p>众筹订单</p>
+					</a>
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shezhiz (5).png'></image>
+						<p>邀请好友</p>
+					</a>
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shezhiz (6).png'></image>
+						<p>优惠券</p>
+					</a>
+				</view>
+				<view class="divc_b">
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye (24).png'></image>
+						<p>优先购</p>
+					</a>
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye (25).png'></image>
+						<p>足迹</p>
+					</a>
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shezhiz (1).png'></image>
+						<p>俱乐部</p>
+					</a>
+          <a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye (23).png'></image>
+						<p>俱乐部</p>
+					</a>
+				</view>
+				<view class="divc_b">
+					
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye (21).png'></image>
+						<p>礼品卡</p>
+					</a>
+          <a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shezhiz (4).png'></image>
+						<p>优先购</p>
+					</a>
+          <a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shouye (22).png'></image>
+						<p>收藏</p>
+					</a>
+          <a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shezhiz (2).png'></image>
+						<p>众筹订单</p>
+					</a>
+				</view>
+				<view class="divd_b">
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shezhi (2).png'></image>
+						<p>地址</p>
+					</a>
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shezhi (3).png'></image>
+						<p>客服</p>
+					</a>
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shezhi (1).png'></image>
+						<p>帮助</p>
+					</a>
+					<a href="#">
+						<image src='/img/img-index/icon_vof1byedfd4y4x6r/shezhi (4).png'></image>
+						<p>设置</p>
+					</a>
+				</view>
+			</view>
+		</view>
+	</view>

@@ -1,0 +1,99 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+  <view style='width:80%;height:39px;margin:0 auto;background-color:white;position:absolute;left:10%;bottom:33rpx;'>
+    <view style='margin-left:40rpx;'>
+      <input class="input"  type="number" placeholder="搜索您想要的美食" placeholder-style="color: gray"/>
+    </view>
+  </view>
+</swiper>
+
+<view class='top'>
+  <view class='top-row'>
+    <image src='/img/img-index/file_58e5f5104fad2.png'></image>
+    <text style='font-size:27rpx;color:#444343e0;'>新品试尝</text>
+  </view>
+  <view class='top-row'>
+    <image src='/img/img-index/file_58e5f50f5755f.png'></image>
+    <text style='font-size:27rpx;color:#444343e0;'>商务简餐</text>
+  </view>
+  <view class='top-row'>
+    <image src='/img/img-index/file_58e5f51015ca2.png'></image>
+    <text style='font-size:27rpx;color:#444343e0;'>下午茶</text>
+  </view>
+  <view class='top-row'>
+    <image src='/img/img-index/file_58e5f50fce8ee.png'></image>
+    <text style='font-size:27rpx;color:#444343e0;'>食客福利</text>
+  </view>
+</view>
+
+<text class='div' style='height:100rpx; line-height:100rpx;'> --- 限时疯抢 ---</text>
+<view class='xsfq'>
+  <view>
+    <image src='/img/img-index/file_58c7a105e2580.png'></image>
+  </view>
+  <view>
+    <image src='/img/img-index/file_58c7a105caf11.png'></image>
+  </view>
+  <view>
+    <image src='/img/img-index/file_58c7a1061e261.png'></image>
+  </view>
+</view>
+
+
+<view class='rxms' style='width:100%; background-color: white;'>
+  <text class='div' style='margin-top:16rpx; '> --- 热销美食 ---</text>
+  <view class='div1'>
+    <image src='/img/img-index/file_58e601571f6b6.png' class='img-left'></image>
+    <view class='right'>
+      <text style='display:block;text-align:center;font-size:33rpx;'>黑糖玛奇朵</text>
+      <text style='color:#444343e0;font-size:30rpx;margin-top:12rpx;display:block;margin:15rpx;'>浓缩咖啡与蒸煮牛奶美妙融合的甜蜜印记</text>
+      <image src='/img/img-index/file_58e605b448a4f.png' class='img-right'></image>
+    </view>
+  </view>
+
+  <view  class='div1'>
+    <image src='/img/img-index/file_58e6063478522.png' class='img-left'></image>
+    <view class='right'>
+      <text style='display:block;text-align:center;font-size:33rpx;'>黑糖玛奇朵</text>
+      <text style='color:#444343e0;font-size:30rpx;margin-top:12rpx;display:block;margin:15rpx;'>浓缩咖啡与蒸煮牛奶美妙融合的甜蜜印记</text>
+      <image src='/img/img-index/file_58e605b448a4f.png' class='img-right'></image>
+    </view>
+  </view>
+
+  <view  class='div1'>
+    <image src='/img/img-index/1-270x270-39-BST4TS1Y.jpg' class='img-left'></image>
+    <view class='right'>
+      <text style='display:block;text-align:center;font-size:33rpx;'>黑糖玛奇朵</text>
+      <br />
+      <text style='color:#444343e0;font-size:30rpx;margin-top:12rpx;display:block;margin:15rpx;'>浓缩咖啡与蒸煮牛奶美妙融合的甜蜜印记</text>
+      <image src='/img/img-index/file_58e605b448a4f.png' class='img-right'></image>
+    </view>
+  </view>
+
+  <view class='div1'>
+    <image src='/img/img-index/1-270x270-465-F2W8R6A6.jpg' class='img-left'></image>
+    <view class='right'>
+      <text style='display:block;text-align:center;font-size:33rpx;'>黑糖玛奇朵</text>
+      <br />
+      <text style='color:#444343e0;font-size:30rpx;margin-top:12rpx;display:block;margin:15rpx;'>浓缩咖啡与蒸煮牛奶美妙融合的甜蜜印记</text>
+      <image src='/img/img-index/file_58e605b448a4f.png' class='img-right'></image>
+    </view>
+  </view>
+
+  <view  class='div1' style=''>
+    <image src='/img/img-index/1-270x270-2169-YR8PTW67.jpg' class='img-left'></image>
+    <view class='right'>
+      <text style='display:block;text-align:center;font-size:33rpx;'>黑糖玛奇朵</text>
+      <br />
+      <text style='color:#444343e0;font-size:30rpx;margin-top:12rpx;display:block;margin:15rpx;'>浓缩咖啡与蒸煮牛奶美妙融合的甜蜜印记</text>
+      <image src='/img/img-index/file_58e605b448a4f.png' class='img-right'></image>
+    </view>
+  </view>
+
+</view>

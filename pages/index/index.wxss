@@ -1,0 +1,111 @@
+/**index.wxss**/
+page{
+  background-color: #efefef;
+}
+
+swiper{
+  width: 100%;
+  height: 430rpx;
+  position: relative;
+}
+swiper image{
+  width: 100%;
+}
+swiper-item{
+  width: 100%;
+  height: 100%;
+}
+.top{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  background-color:white;
+  height:200rpx;
+}
+.top .top-row{
+  width:25%;
+  text-align:center;
+  font-size:30rpx;
+  line-height:70rpx;
+  color:#123456;
+  margin-top: 30rpx;
+}
+.top image{
+  width: 79rpx;
+  height: 79rpx;
+  display: block;
+  margin: 0 auto;
+}
+.xsfq{
+  display: flex;
+  flex-direction: row;
+  border-top: solid 4rpx #efefef;
+  border-bottom: solid 4rpx #efefef; 
+}
+.xsfq view{
+  width: 33.3333333%;
+  height: 240rpx;
+}
+.xsfq image{
+  width: 100%;
+  height: 100%;
+}
+.rxms .img-left{
+  width: 235rpx;
+  height: 235rpx;
+  float: left;
+  border-radius:50%; 
+  margin-top:37rpx;
+  margin-left:30rpx;
+
+}
+.rxms .img-right{
+  width: 120rpx;
+  height: 30rpx;
+  margin-top:20rpx;
+
+}
+.rxms .right{
+  float: right;
+  width: 50%;
+  font-size: 34rpx;
+  color: #444343;
+  margin-top:50rpx;
+
+}
+
+.logo{
+  width: 100%;
+  margin: 0 auto;
+  height: 260rpx;
+  border-radius: 30rpx; 
+  margin-top: 18rpx;  
+}
+
+.div{
+  text-align:center;
+  font-size:32rpx;
+  display:block;
+  margin-top:15rpx;
+  margin-bottom:0rpx;
+  background-color:white;
+  height:70rpx;
+  line-height:110rpx;
+  color:#eeb174;
+
+}
+.div1{
+  width:86%;
+  margin:0 auto;
+  border-radius:32rpx;
+  border:5rpx solid #efefef;
+  height:310rpx;
+  margin-top: 45rpx
+}
+.input{
+  background-color: white;
+  border-radius: 18rpx; 
+  height:68rpx;
+  font-size:30rpx;
+
+}

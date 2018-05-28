@@ -1,0 +1,84 @@
+/* pages/fenlei/fenlei.wxss */
+
+page{
+  background-color: white;
+}
+.nav{
+  width:20%;
+  height:100%;
+  display:inline-block;
+  color:#eeb174;
+  bottom:0rpx;
+  left:0rpx;
+  position:fixed;
+  border-right:1px solid gainsboro;
+
+
+}
+.div2{
+  text-align:center;
+  height:123rpx; 
+  line-height:130rpx;
+  font-size:28rpx;
+  color:#eeb174;
+}
+.center text{
+  font-size:25rpx;
+
+}
+.default{
+  line-height:100rpx;
+  text-align:center;
+  flex:1;
+  color:#000;
+  font-size:28rpx;
+}
+.red{
+  line-height:100rpx;
+  text-align:center;
+  flex:1;
+  font-weight:bold;
+  font-size:28rpx;
+}
+.show{
+  display:block;
+  text-align:center;
+  line-height:200rpx;
+  width:80%;
+  float:right;
+
+}
+.hidden{
+  display:none;
+  text-align:center;
+  line-height:200px;
+}
+
+.center{
+  display:inline-block;
+  text-align:center;
+
+  width:33.333333%;
+  font-size:28rpx;
+  height:230rpx;
+  line-height:40rpx;
+
+}
+.center image{
+width:140rpx;
+height:140rpx;
+border-radius:50%;
+}
+.center text{
+  display: block;
+}
+.img-top{
+display:block;
+width:90%;
+margin:0 auto;
+margin-top:50rpx;
+height:220rpx;
+border-radius:30rpx;
+
+
+}

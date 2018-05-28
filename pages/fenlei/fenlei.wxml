@@ -1,0 +1,419 @@
+<!--pages/fenlei/fenlei.wxml-->
+
+<view class="body">
+  <view class="nav bc_white">
+    
+    <view class="{{selected?'red':'default'}}" bindtap="selected">水果</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">蔬菜</view>
+    <view class="{{selected2?'red':'default'}}" bindtap="selected2">采摘</view>
+    <view class="{{selected3?'red':'default'}}" bindtap="selected3">炒货</view>
+    <view class="{{selected4?'red':'default'}}" bindtap="selected4">点心</view>
+    <view class="{{selected5?'red':'default'}}" bindtap="selected5">粗茶</view>
+    <view class="{{selected6?'red':'default'}}" bindtap="selected6">淡饭</view>
+    <view class="{{selected7?'red':'default'}}" bindtap="selected7">饮品</view>
+  </view>
+
+  <view class="{{selected?'show':'hidden'}}">
+    <image src='/img/img-fenlei/jdt3.jpg' class='img-top'></image>
+    <view class='div2'> --- 水果 ---</view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-20-D59D1HD8.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-34-HC5KWXT6.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-102-X2155SHW.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-465-FSY3B536.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2383-WT1P4K72.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2429-RDP9UDF8.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-27-DRXW9AYR.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-465-FSY3B536.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-2546-RW3AX9DX.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-2383-WT1P4K72.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-284-59U2XPU5.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5351-S5C3B3CF.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+   
+  </view>
+
+  <view class="{{selected1?'show':'hidden'}}">
+    <image src='/img/img-fenlei/ad1.jpg' class='img-top'></image>
+    <view class='div2'> --- 蔬菜 ---</view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-263-P153HKYH.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-284-59U2XPU5.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2259-3PCD9DSR.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2759-3PPKDFHP.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5125-SKU3U217.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5351-S5C3B3CF.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5417-W317W7Y2.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-3734-PR28W74F.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-4106-WYKTA5BF.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-34-HC5KWXT6.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-3957-92CK1H8D.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5125-SKU3U217.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-5125-SKU3U217.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-5351-S5C3B3CF.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+  </view>
+
+  <view class="{{selected2?'show':'hidden'}}">
+    <image src='/img/img-fenlei/jdt2.jpg' class='img-top'></image>
+    <view class='div2'> --- 采摘 ---</view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-160-X5PSK4CD.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-263-P153HKYH.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-284-59U2XPU5.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5417-W317W7Y2.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5125-SKU3U217.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5351-S5C3B3CF.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-246-P9FXA58B.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2429-RDP9UDF8.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-2147-T9UDU124.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-2546-RW3AX9DX.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-102-X2155SHW.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+  </view>
+
+  <view class="{{selected3?'show':'hidden'}}">
+    <image src='/img/img-fenlei/25af37592bf484fbeaef1cc4ff1e09c7.jpg' class='img-top'></image>
+    <view class='div2'> --- 炒货 ---</view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-134-W1XHC4TT.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5568-FBUKDHD3.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-17031-STD6H9RW.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-170-K5BDS7PF.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-480-P3W52TCC.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5568-FBUKDHD3.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-5351-S5C3B3CF.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-246-P9FXA58B.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+  </view>
+
+  <view class="{{selected4?'show':'hidden'}}">
+    <image src='/img/img-fenlei/jdt3.jpg' class='img-top'></image>
+    <view class='div2'> --- 点心 ---</view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-20-D59D1HD8.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-34-HC5KWXT6.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-102-X2155SHW.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-465-FSY3B536.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2383-WT1P4K72.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2429-RDP9UDF8.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2546-RW3AX9DX.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-465-FSY3B536.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-2546-RW3AX9DX.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-102-X2155SHW.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2429-RDP9UDF8.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2546-RW3AX9DX.jpg'></image>
+      <text>水果套餐</text>
+    </view>
+   
+  </view>
+
+  <view class="{{selected5?'show':'hidden'}}">
+    <image src='/img/img-fenlei/ad1.jpg' class='img-top'></image>
+    <view class='div2'> --- 粗茶 ---</view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-263-P153HKYH.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-284-59U2XPU5.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2259-3PCD9DSR.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2759-3PPKDFHP.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5125-SKU3U217.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5351-S5C3B3CF.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5417-W317W7Y2.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-3734-PR28W74F.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-4106-WYKTA5BF.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-34-HC5KWXT6.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-3957-92CK1H8D.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5125-SKU3U217.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-5125-SKU3U217.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-5351-S5C3B3CF.jpg'></image>
+      <text>平价蔬菜</text>
+    </view>
+  </view>
+
+  <view class="{{selected6?'show':'hidden'}}">
+    <image src='/img/img-fenlei/jdt2.jpg' class='img-top'></image>
+    <view class='div2'> --- 淡饭 ---</view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-160-X5PSK4CD.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-263-P153HKYH.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-284-59U2XPU5.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5417-W317W7Y2.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5125-SKU3U217.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5351-S5C3B3CF.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-246-P9FXA58B.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-2429-RDP9UDF8.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-2147-T9UDU124.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-2546-RW3AX9DX.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-102-X2155SHW.jpg'></image>
+      <text>农场采摘</text>
+    </view>
+  </view>
+
+  <view class="{{selected7?'show':'hidden'}}">
+    <image src='/img/img-fenlei/25af37592bf484fbeaef1cc4ff1e09c7.jpg' class='img-top'></image>
+    <view class='div2'> --- 饮品 ---</view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-134-W1XHC4TT.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5568-FBUKDHD3.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-17031-STD6H9RW.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-170-K5BDS7PF.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-480-P3W52TCC.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center'>
+      <image src='/img/img-fenlei/1-270x270-5568-FBUKDHD3.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-5351-S5C3B3CF.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+    <view class='center' style='float:left'>
+      <image src='/img/img-fenlei/1-270x270-246-P9FXA58B.jpg'></image>
+      <text>菜谱搭配</text>
+    </view>
+  </view>
+
+</view>
+
